@@ -1,0 +1,71 @@
+/**
+ TABLE OF CONTENTS - CONSTRUCTION OF HEADER
+
+ HEADER_LAYOUT..............size of the header 
+ NAVIGATION_BLOCK...........size of the big navigation panel
+ NAVIGATION_BLOCK...........size and layout of the navigation panel
+ */
+
+.header_layout{
+  width: 100%;
+  height: 5rem;
+  background-color: #6200EA;
+}
+
+.button{
+  display: inline-block;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  margin-left: 15.3125%;
+  margin-right: 19.0625%;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  color: #6200EA;
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 1.5rem;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  font-weight: bold;
+}
+
+.navigation_layout{
+  width: 100%;
+  height: 5rem;
+  background-color: #FFFFFF;
+  margin-bottom: 2.5rem;
+}
+
+.navigation_block{
+  height: 100%;
+  width: 65%;
+  /*background-color: antiquewhite;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav_title{
+  display: inline-block;
+  color: #211138;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  margin-right: 4.375%;
+  font-weight: bold;
+}
+
+.nav_title:last-child{
+  margin-right: 0;
+}
+
+.nav_title:hover{
+  color: #6200EA;
+  border-bottom: 3px solid #6200EA;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 2.0625rem;
+}

@@ -1,0 +1,145 @@
+/**
+ TABLE OF CONTENTS - CONSTRUCTION OF LEFT COLOUMN OF THE BLOG SESSION
+
+ BLOG_SESSION............size of the blog session 
+ LEFT_COLOUMN........... size of the left coloumn of the blog session
+ FEATURED_BLOG_POST......size, layout and typography of the featured blog post box
+ ARTICLE_DETAILS.........size, layout and typography of the box with picture and text
+    WRAPPER
+    WRAPPER_ARTICLE
+    WRAPPER_IMG
+    ARTICLE_IMG
+    ARTICLE_TEXT
+ VIEW_NEWS...............size, layout and typhography of the view all (see all) box
+ CATEGORIES_BOX..........size, layout and typhography of the categories box
+ */
+
+.left_coloumn{
+  width: 65.765%;
+  height: 100%;
+  /*background-color: azure;*/
+}
+
+.featured_blog_post{
+  width: 100%;
+  height: 21.875rem;
+  background: url(blog/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
+  background-size: cover;
+  border-radius: .9375rem .9375rem .9375rem .9375rem;
+  padding-top: 3.75rem;
+  padding-left: 3.75rem;
+  padding-bottom: 3.125rem;
+  padding-right: 3.75rem;
+  margin-bottom: 1.875rem;
+}
+
+.blog_date{
+  color: #FFFFFF;
+  font-size: .75rem;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: .9375rem;
+  height: .9375rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title_text{
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: .9375rem;
+  height: 3.125rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blog_text{
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  height: 6rem;
+  overflow: hidden;
+  margin-bottom: .9375rem;
+}
+
+.read_more_button{
+  display: inline-block;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  border: 2px solid #FFFFFF;
+  border-radius: 1.5rem;
+  padding: .8125rem;
+  font-size: .75rem;
+}
+
+.font_color_2{
+  color: #FFFFFF;
+}
+
+.article_details_2{
+  width: 47.9452%;
+  height: 10rem;
+  background-color: #FFFFFF;
+  border-radius: .9375rem;
+  margin-bottom: 1.875rem;
+}
+
+.sample_blog_post{
+  width: 100%;
+  height: 21.875rem;
+  background-color: #FFFFFF;
+  border-radius: .9375rem;
+  padding-top: 3.75rem;
+  padding-left: 3.75rem;
+  padding-bottom: 3.125rem;
+  padding-right: 3.75rem;
+  margin-bottom: 1.875rem;
+}
+
+.color_change_grey{
+  color: #B2ACBA;
+}
+
+.color_change_black{
+  color: #211138;
+}
+
+.color_change_blue{
+  color: #6200EA;
+}
+
+.border_change_blue{
+  border: 2px solid #6200EA;
+}
+
+/*.read_more_button_blue{
+  display: inline-block;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  color: #6200EA;
+  border: 1px solid #6200EA;
+  padding: .8125rem;
+  border-radius: 1.5rem;
+}*/
+
+.blog_post_with_image{
+  width: 100%;
+  height: 41.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.image_part{
+  width: 100%;
+  height: 20rem;
+  background: url(blog/sean-o-KMn4VEeEPR8-unsplash.jpg);
+  background-size: cover;
+  border-radius: .9375rem .9375rem 0 0;
+}
+
+.blog_part{
+  width: 100%;
+  height: 21.875rem;
+}
